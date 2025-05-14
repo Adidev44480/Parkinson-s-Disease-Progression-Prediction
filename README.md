@@ -4,5 +4,5 @@ This project is a Regression project done under the kind supervision of Dr. Moni
 The details and workflow of the Projects are given below:
 
 # Data
-The data used for this project is /parkinsons_updrs.csv
+The data used for this project is `parkinsons_updrs.csv`
 
