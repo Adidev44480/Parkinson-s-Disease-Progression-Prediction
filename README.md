@@ -9,9 +9,9 @@ The data used for this project is `parkinsons_updrs.csv`. The data contains 5875
 
 # Methodology
 1. **Data Preprocessing**:
-  - Dropped irrelevent columns `id` and `motor_updrs`
-  - `sex` column was converted to `binary` datatype
-  - Feature Scaling
+    - Dropped irrelevent columns `id` and `motor_updrs`
+    - `sex` column was converted to `binary` datatype
+    - Feature Scaling
 2. Exploratory Data Analysis (EDA)
   * KDE of `total_updrs`
   * Pair plot
