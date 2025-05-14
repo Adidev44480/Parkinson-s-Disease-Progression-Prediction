@@ -37,7 +37,7 @@ The data used for this project is `parkinsons_updrs.csv`. The data contains 5875
    * To check for futher improvement in the results
 
 # **Result**
-Random Forest Regressor model out-performed Linear Regression mode. Increasing the accuracy of the prediction of `total_updrs` to 96%.
+Random Forest Regressor model out-performed Linear Regression model. Increasing the accuracy of prediction of `total_updrs` to 96%.
 # **Dependencies**
 * numpy
 * pandas
