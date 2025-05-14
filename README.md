@@ -5,7 +5,7 @@ This project is a Regression project done under the kind supervision of Dr. Moni
 The details and workflow of the Projects are given below:
 
 # **Data**
-The data used for this project is `parkinsons_updrs.csv`. The data contains 5875 voice recording observations of patients with early-stage Parkinson's disease. There are 18 columns: `age`, `sex`, `16 biomedical voice measures`, and `total_updrs`. `total_updrs` is a measure for the progression and severity of Parkinson's disease.
+The data used for this project is `parkinsons_updrs.csv`. The data contains 5875 voice recording observations of patients with early-stage Parkinson's disease. There are 18 predictors: `age`, `sex`, and `16 biomedical voice measures`. The target variable `total_updrs` is a measure for the progression and severity of Parkinson's disease.
 
 # **Methodology**
 1. **Data Preprocessing**:
