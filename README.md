@@ -34,7 +34,7 @@ The data used for this project is `parkinsons_updrs.csv`. The data contains 5875
    * Lasso regression (L1)
    * Identified most significant features
 7. **Applied Random Forest Regressor**
-   *To check for futher improvement in the results
+   * To check for futher improvement in the results
 
 # Dependencies
 * numpy
