@@ -1,13 +1,13 @@
-# Parkinson-s-Disease-Progression-Prediction
+# **Parkinson-s-Disease-Progression-Prediction**
 This project aims at identifying the progression of Parkinson's disease using Speech-based Assessments reducing patient's inconvenience and healthcare cost.
 This project is a Regression project done under the kind supervision of Dr. Monika Bhattacharjee, Department of Mathematics, Indian Institute of Technology Bombay. 
 
 The details and workflow of the Projects are given below:
 
-# Data
+# **Data**
 The data used for this project is `parkinsons_updrs.csv`. The data contains 5875 voice recording observations of patients with early-stage Parkinson's disease. There are 18 columns: `age`, `sex`, `16 biomedical voice measures`, and `total_updrs`. `total_updrs` is a measure for the progression and severity of Parkinson's disease.
 
-# Methodology
+# **Methodology**
 1. **Data Preprocessing**:
    * Dropped irrelevent columns `id` and `motor_updrs`
    * `sex` column was converted to `binary` datatype
@@ -36,7 +36,9 @@ The data used for this project is `parkinsons_updrs.csv`. The data contains 5875
 7. **Applied Random Forest Regressor**
    * To check for futher improvement in the results
 
-# Dependencies
+# **Result**
+Random Forest Regressor model out-performed Linear Regression mode. Increasing the accuracy of the prediction of `total_updrs` to 96%.
+# **Dependencies**
 * numpy
 * pandas
 * scikit-learn
