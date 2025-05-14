@@ -8,7 +8,7 @@ The details and workflow of the Projects are given below:
 The data used for this project is `parkinsons_updrs.csv`. The data contains 5875 voice recording observations of patients with early-stage Parkinson's disease. There are 18 columns: `age`, `sex`, `16 biomedical voice measures`, and `total_updrs`. `total_updrs` is a measure for the progression and severity of Parkinson's disease.
 
 # Methodology
-1. Data Preprocessing
+1. **Data Preprocessing**:
   * Dropped irrelevent columns `id` and `motor_updrs`
   * `sex` column was converted to `binary` datatype
   * Feature Scaling
