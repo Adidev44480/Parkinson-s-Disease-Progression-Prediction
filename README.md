@@ -9,32 +9,32 @@ The data used for this project is `parkinsons_updrs.csv`. The data contains 5875
 
 # Methodology
 1. **Data Preprocessing**:
-    - Dropped irrelevent columns `id` and `motor_updrs`
-    - `sex` column was converted to `binary` datatype
-    - Feature Scaling
+    * Dropped irrelevent columns `id` and `motor_updrs`
+    * `sex` column was converted to `binary` datatype
+    * Feature Scaling
 2. Exploratory Data Analysis (EDA)
-  * KDE of `total_updrs`
-  * Pair plot
-  * Heatmap/Correlation matrix
+      * KDE of `total_updrs`
+      * Pair plot
+      * Heatmap/Correlation matrix
 3. Detected multicollinearity using:
-  * Correlation matrix `|r| > 0.8`
-  * Variance Inflation Factor `VIF > 10`
-  * Condition Number `Cn > 50`
+      * Correlation matrix `|r| > 0.8`
+      * Variance Inflation Factor `VIF > 10`
+      * Condition Number `Cn > 50`
 4. Fitted Linear Regression Model
-  * Identified outliers using:
-    * DFFITS
-    * DFBETAS
-    * Cook's Distance
+      * Identified outliers using:
+            * DFFITS
+            * DFBETAS
+            * Cook's Distance
 5. Retrained the Linear Regression Model on filtered data
-  * Performed residual analysis
-    * Residual vs Fitted value plot
-    * Q-Q plot of residual
+       * Performed residual analysis
+        * Residual vs Fitted value plot
+        * Q-Q plot of residual
 6. Regualrization regression model
-  * Ridge regression (L2)
-  * Lasso regression (L1)
-  * Identified most significant features
-7. Applied Random Forest Regressor
-  * To check for futher improvement in the results
+        * Ridge regression (L2)
+        * Lasso regression (L1)
+        * Identified most significant features
+8. Applied Random Forest Regressor
+        * To check for futher improvement in the results
 
 # Dependencies
 * numpy
